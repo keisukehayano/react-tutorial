@@ -2,8 +2,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import logo from './logo.svg';
-import { Path } from './routes';
+import { Path } from '../routes';
 
 const App: React.FC = () => {
   return (
@@ -12,7 +11,7 @@ const App: React.FC = () => {
 
       <Wrapper>
         <Header>
-          <Logo src={logo} className='App-logo' alt='logo' />
+          <Logo src='../logo.svg' className='App-logo' alt='logo' />
           <Text>
             Edit <CodeText>src/.App.tsx</CodeText> and save to reload.
           </Text>
