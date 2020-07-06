@@ -7,7 +7,6 @@ export const Layout: React.FC = ({ children }) => {
     <>
       <Reset />
       <GlobalStyle />
-
       <Wrapper>
         <Header>React Tutorial</Header>
         <Body>{children}</Body>
@@ -25,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
